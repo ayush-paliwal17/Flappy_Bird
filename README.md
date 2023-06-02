@@ -9,4 +9,4 @@ The game automatically increases the difficulty as the score increases and also 
 #Suggestions - 
 I suggest you use an IDE such as VSCode for smooth experience. 
 
-Feel free to modify the script according to your taste.
+Feel free to modify the script on your local system according to your taste.
