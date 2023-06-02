@@ -165,7 +165,7 @@ def mainGame():
             if event.type == pygame.QUIT or (event.type == KEYDOWN and event.key == K_ESCAPE):
                 run = False
             #Flap the bird if Spacebar is pressed
-            if event.type == KEYDOWN and (event.key == K_SPACE):
+            elif event.type == KEYDOWN and (event.key == K_SPACE):
                 if playery > 0: # So the player does not go above the origin.
                     playerVelY = Flap
                     playerFlapped = True
